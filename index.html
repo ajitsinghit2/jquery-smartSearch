@@ -13,14 +13,9 @@
     <link href="css/font-awesome.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="css/jquery.smartsearch.css">
-    <link type="text/css" rel="stylesheet" href="css/shCore.css"/>
-    <link type="text/css" rel="stylesheet" href="css/shThemeDefault.css"/>
 
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.smartsearch.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/shCore.js"></script>
-    <script type="text/javascript" src="js/shBrushXml.js"></script>
-    <script type="text/javascript" src="js/shBrushJScript.js"></script>
     <script type="text/javascript">
         SyntaxHighlighter.config.clipboardSwf = 'js/clipboard.swf';
         SyntaxHighlighter.all();
@@ -89,42 +84,7 @@
                 <hr />
                 <h3>Code</h3>
                 <hr />
-                <pre class="brush: xml;">
-                    <form class="smartsearch">
-                        <input name="customer[search]" type="text" class="search">
-                        <button class="btn" type="submit"><i class="icon-search"></i></button>
-
-                        <label for="customer_status">Status</label>
-                        <select name="customer[status]" id="customer_status">
-                            <option value=""></option>
-                            <option value="1">Interested</option>
-                            <option value="2">Potential customer</option>
-                            <option value="3">Customer</option>
-                        </select>
-
-                        <label for="customer_agent">Agent</label>
-                        <select name="customer[agent]" id="customer_agent">
-                            <option value=""></option>
-                            <option value="1">Adam Prager</option>
-                        </select>
-
-                        <label for="customer_test">Test</label>
-                        <select name="customer[test]" id="customer_test" multiple="multiple">
-                            <option value=""></option>
-                            <option value="1">Option 1</option>
-                            <option value="2">Option 2</option>
-                            <option value="3">Option 3</option>
-                        </select>
-
-                        <label for="customer_reg">Regular Input</label>
-                        <input name="customer[reg]" id="customer_reg">
-                    </form>
-                </pre>
-                <pre class="brush: js;">
-                    $(document).ready(function() {
-                        $('.smartsearch').smartSearch();
-                    });
-                </pre>
+				<script src="https://gist.github.com/Padam87/7b9b053804ec3d95898c.js"></script>
             </div>
         </div>
         <div class="row">

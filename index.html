@@ -93,6 +93,47 @@
             </section>
         </div>
         <div class="row">
+            <section id="options" class="span12">
+                <table class="table">
+                    <tr>
+                        <th>Option</th>
+                        <th>Default</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>maxShownOptions</b>
+                            <br />
+                            <small>Maximum number of options shown separately</small>
+                        </td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>onChange</b>
+                            <br />
+                            <small>Called every time an input changes</small>
+                        </td>
+                        <td>
+<pre>function() {
+}</pre>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>onClear</b>
+                            <br />
+                            <small>Called when the filters are cleared</small>
+                        </td>
+                        <td>
+<pre>function() {
+    smartSearch.submit();
+} </pre>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        <div class="row">
             <section id="comments" class="span12">
                 <div id="disqus_thread"></div>
                 <script type="text/javascript">

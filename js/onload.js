@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $('#demo').smartSearch();
+    $('.smartsearch').smartSearch();
 });

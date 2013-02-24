@@ -1,17 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One&subset=latin,latin-ext);
+
 body {
-    background: none repeat scroll 0 0 #F2F2F2;
+    background-image: url("../img/satinweave.png");
+    font-family: 'Oxygen', sans-serif;
 }
 
-.gist .gist-file .gist-data .line-data {
-	width: 100%;
+a:hover {
+    text-decoration: none;
 }
 
-table {
-	margin-bottom: 0;
+header {
+    text-align: center;
 }
 
-pre {
-	box-shadow: none;
-	border: none;
-	background-color: inherit;
+header hgroup {
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 100px 0;
+}
+
+#menu {
+    list-style-type: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#menu li {
+    margin: 0 5px;
+    float: left;
+}
+
+#menu li a {
+    color: #3277B5;
+    font-size: 48px;
+    line-height: 64px;
+    vertical-align: middle;
+}
+
+#menu li a:hover {
+    color: #645B5C;
+}
+
+section {
+    margin-bottom: 100px;
 }
